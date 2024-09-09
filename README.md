@@ -1,27 +1,52 @@
-# AngularBlog
+# <img src="assets/playstation-store-logo.png" alt="PlayStation Icon" height="40"> PlayStation Store Clone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+Este projeto é uma simulação da página inicial da PlayStation Store, desenvolvido com Angular. O objetivo é replicar o layout e a navegação da página, utilizando os principais conceitos e boas práticas de desenvolvimento front-end com Angular.
 
-## Development server
+![Demonstração do Projeto](assets/psn-store.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## ⚙️ Funcionalidades
 
-## Code scaffolding
+- **Menu de navegação interativo**: Simula a navegação da PlayStation Store com categorias como jogos, assinaturas, promoções e outros.
+- **Cards de jogos**: Exibe uma galeria de cards de jogos com imagens, preços e informações principais.
+- **Responsividade**: Layout ajustável para diferentes dispositivos (desktop, tablet e mobile).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Tecnologias Utilizadas
 
-## Build
+- **Angular**: Estrutura principal do projeto.
+- **TypeScript**: Linguagem de programação utilizada no desenvolvimento.
+- **HTML5 e CSS3**: Para construção do layout e estilização.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Como Executar o Projeto
 
-## Running unit tests
+1. Clone o repositório:
+```bash
+git clone https://github.com/joschonarth/playstation-store-clone.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Navegue até o diretório do projeto:
+```bash
+cd playstation-store-clone
+```
 
-## Running end-to-end tests
+3. Instale as dependências do Node:
+```bash
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. Execute a aplicação:
+```bash
+ng serve
+```
 
-## Further help
+5. Acesse a aplicação em seu navegador:
+```bash
+http://localhost:4200
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## 📞 Contato 
+
+<div>
+    <a href="https://www.linkedin.com/in/joschonarth/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+    <a href="mailto:joschonarth@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div>
