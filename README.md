@@ -1,31 +1,32 @@
 # 🅰️ Angular Blog
 
-Este projeto é uma simulação da página inicial da PlayStation Store, desenvolvido com Angular. O objetivo é replicar o layout e a navegação da página, utilizando os principais conceitos e boas práticas de desenvolvimento front-end com Angular.
+Este projeto é uma simulação de um blog desenvolvido com Angular. O objetivo é criar uma página de blog interativa, utilizando os principais conceitos e boas práticas de desenvolvimento front-end com Angular.
 
 ![Demonstração do Projeto](assets/angular-blog.png)
 
 ## ⚙️ Funcionalidades
 
-- **Menu de navegação interativo**: Simula a navegação da PlayStation Store com categorias como jogos, assinaturas, promoções e outros.
-- **Cards de jogos**: Exibe uma galeria de cards de jogos com imagens, preços e informações principais.
-- **Responsividade**: Layout ajustável para diferentes dispositivos (desktop, tablet e mobile).
+* **Página inicial**: Exibe uma lista de posts do blog com títulos, imagens e resumos.
+* **Página de detalhes**: Mostra o conteúdo completo do post ao clicar em um item da lista.
+* **Adicionar novas notícias**: Permite adicionar novas notícias de maneira dinâmica através dos componentes do Angular.
+* **Responsividade**: Layout ajustável para diferentes dispositivos (desktop, tablet e mobile).
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Angular**: Estrutura principal do projeto.
-- **TypeScript**: Linguagem de programação utilizada no desenvolvimento.
-- **HTML5 e CSS3**: Para construção do layout e estilização.
+* **Angular**: Estrutura principal do projeto.
+* **TypeScript**: Linguagem de programação utilizada no desenvolvimento.
+* **HTML5** e **CSS3**: Para construção do layout e estilização.
 
 ## 🚀 Como Executar o Projeto
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/joschonarth/playstation-store-clone.git
+git clone https://github.com/joschonarth/angular-blog
 ```
 
 2. Navegue até o diretório do projeto:
 ```bash
-cd playstation-store-clone
+cd cd angular-blog
 ```
 
 3. Instale as dependências do Node:
