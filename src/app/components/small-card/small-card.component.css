@@ -1,26 +1,54 @@
 .container_small_card {
-  width: 700px;
-  margin-bottom: 15px;
+  width: 100%;
+  max-width: 700px; /* Limita a largura máxima do card */
+  margin: 0 auto 10px auto; /* Centraliza horizontalmente e reduz a margem inferior */
+  border-radius: 10px; /* Arredonda as bordas */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra sutil para destaque */
+  overflow: hidden; /* Garante que o conteúdo se ajuste ao card */
 }
 
 .container_small_card_content {
   display: flex;
   flex-direction: row;
+  align-items: center; /* Alinha verticalmente o conteúdo */
+  padding: 15px; /* Adiciona espaçamento interno */
 }
 
 .small_card_photo > img {
-  width: 200px;
-  min-width: 200px;
-  margin-right: 20px;
+  width: 200px; /* Define a largura da imagem */
+  height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+  border-radius: 8px; /* Arredonda as bordas da imagem */
+  margin-right: 20px; /* Espaçamento à direita da imagem */
 }
 
 .small_card_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex: 1; /* Faz o título ocupar o espaço restante */
+}
+
+.small_card_title > h1 {
+  font-size: 20px; /* Tamanho do título */
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #a277ff; /* Cor do texto do título (roxo) */
+}
+
+.small_card_title > h1 > a {
+  color: #a277ff; /* Cor do link (roxo) */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+.small_card_title > h1 > a:hover {
+  color: #61ffca; /* Cor ao passar o mouse (verde) */
 }
 
 .container_small_card_separator {
   margin-top: 10px;
+  margin-bottom: 10px; /* Reduz a margem inferior do separador */
+}
 
+.container_small_card_separator > hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #444, transparent); /* Linha com gradiente mais escuro */
 }

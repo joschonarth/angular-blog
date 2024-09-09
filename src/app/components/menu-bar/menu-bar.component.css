@@ -1,9 +1,32 @@
+.container_menu_bar {
+  padding: 15px; /* Espaçamento interno */
+}
+
 .container_menu_bar > ul {
   display: flex;
   flex-direction: row;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .container_menu_bar > ul > li {
-  margin-right: 20px;
   list-style: none;
+  margin-right: 20px; /* Espaçamento entre os itens */
+  font-size: 18px; /* Tamanho da fonte */
+}
+
+.container_menu_bar > ul > li:last-child {
+  margin-right: 0; /* Remove o espaço extra do último item */
+}
+
+.container_menu_bar a {
+  text-decoration: none;
+  color: #a277ff; /* Cor dos links */
+  transition: color 0.3s ease; /* Efeito suave de hover */
+}
+
+.container_menu_bar a:hover {
+  color: #61ffca; /* Cor ao passar o mouse */
 }
