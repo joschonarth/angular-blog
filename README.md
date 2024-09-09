@@ -1,8 +1,8 @@
-# <img src="assets/playstation-store-logo.png" alt="PlayStation Icon" height="40"> PlayStation Store Clone
+# 🅰️ Angular Blog
 
 Este projeto é uma simulação da página inicial da PlayStation Store, desenvolvido com Angular. O objetivo é replicar o layout e a navegação da página, utilizando os principais conceitos e boas práticas de desenvolvimento front-end com Angular.
 
-![Demonstração do Projeto](assets/psn-store.png)
+![Demonstração do Projeto](assets/angular-blog.png)
 
 ## ⚙️ Funcionalidades
 
