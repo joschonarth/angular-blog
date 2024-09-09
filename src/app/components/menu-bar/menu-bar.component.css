@@ -1,11 +1,11 @@
 .container_menu_bar {
-  padding: 15px; /* Espaçamento interno */
+  padding: 15px;
 }
 
 .container_menu_bar > ul {
   display: flex;
   flex-direction: row;
-  justify-content: center; /* Centraliza os itens horizontalmente */
+  justify-content: center;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -13,20 +13,20 @@
 
 .container_menu_bar > ul > li {
   list-style: none;
-  margin-right: 20px; /* Espaçamento entre os itens */
-  font-size: 18px; /* Tamanho da fonte */
+  margin-right: 20px;
+  font-size: 18px;
 }
 
 .container_menu_bar > ul > li:last-child {
-  margin-right: 0; /* Remove o espaço extra do último item */
+  margin-right: 0;
 }
 
 .container_menu_bar a {
   text-decoration: none;
-  color: #a277ff; /* Cor dos links */
-  transition: color 0.3s ease; /* Efeito suave de hover */
+  color: #a277ff;
+  transition: color 0.3s ease;
 }
 
 .container_menu_bar a:hover {
-  color: #61ffca; /* Cor ao passar o mouse */
+  color: #61ffca;
 }

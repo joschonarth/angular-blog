@@ -1,23 +1,23 @@
 .container_big_card {
-  margin: 20px auto; /* Centraliza horizontalmente */
+  margin: 20px auto;
   width: 100%;
-  max-width: 600px; /* Define um limite máximo de largura para o card */
-  height: auto; /* Permite altura variável */
+  max-width: 600px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centraliza o conteúdo do card */
+  align-items: center;
   justify-content: flex-start;
-  border-radius: 10px; /* Arredonda as bordas */
-  overflow: hidden; /* Garante que o conteúdo se ajuste ao card */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .big_card_photo > img {
-  width: 80%; /* Reduz a largura da imagem */
-  max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
-  height: auto; /* Faz a imagem se ajustar responsivamente */
-  display: block; /* Garante que a imagem possa ser centralizada */
-  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .big_card_title {
@@ -33,19 +33,19 @@
 }
 
 .big_card_title > h1 > a {
-  color: #a277ff; /* Cor do título */
+  color: #a277ff;
   text-decoration: none;
-  transition: color 0.3s ease; /* Efeito suave ao passar o mouse */
+  transition: color 0.3s ease;
 }
 
 .big_card_title > h1 > a:hover {
-  color: #61ffca; /* Cor ao passar o mouse */
+  color: #61ffca;
 }
 
 .big_card_description {
   padding: 15px;
   text-align: center;
-  color: #444; /* Cor do texto da descrição */
+  color: #444;
 }
 
 .big_card_description > p > a {
@@ -55,5 +55,5 @@
 }
 
 .big_card_description > p > a:hover {
-  color: #a277ff; /* Cor ao passar o mouse */
+  color: #a277ff;
 }

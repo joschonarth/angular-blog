@@ -1,22 +1,22 @@
 .container_menu_title {
   color: #fff;
-  text-align: center; /* Centraliza o conteúdo */
+  text-align: center;
 }
 
 .container_menu_title > h1 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 64px; /* Tamanho do título ajustado para ser mais responsivo */
+  font-size: 64px;
   font-family: 'Segoe UI', sans-serif;
-  font-weight: bold; /* Deixa o título mais forte */
-  letter-spacing: 5px; /* Espaçamento entre as letras */
+  font-weight: bold;
+  letter-spacing: 5px;
 }
 
 .container_menu_title > hr {
-  width: 80%; /* Reduz a largura da linha horizontal */
+  width: 80%;
   border: 0;
   height: 1px;
-  background: linear-gradient(to right, transparent, #a277ff, transparent); /* Linha com gradiente */
+  background: linear-gradient(to right, transparent, #a277ff, transparent);
   margin-top: 15px;
   margin-bottom: 15px;
 }
